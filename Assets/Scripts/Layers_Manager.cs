@@ -16,6 +16,7 @@ public class Layers_Manager : MonoBehaviour
         {
             counter++;
         }
+        counter--;
         Debug.Log("El contador es de: " + counter);
         max_counter = counter;
     }
